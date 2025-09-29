@@ -1,0 +1,130 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #867575;
+  color: #793737;
+}
+
+/* Navbar */
+header {
+  background: #e2d5d5;
+  color: #351d1d;
+  padding: 1rem 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.logo {
+  font-size: 1.5rem;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.nav-links a {
+  color: #d6adad;
+  text-decoration: none;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #7794b6;
+  color: #ac8585;
+}
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  margin-bottom: 1rem;
+}
+.btn {
+  display: inline-block;
+  background: #c5abab;
+  color: #e82a2a;
+  padding: 0.7rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #aa9f9f;
+}
+
+/* Projects */
+.projects {
+  padding: 2rem;
+  text-align: center;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.project-card {
+  background: #8b7171;
+  padding: 1rem;
+  border: 1px solid #a37676;
+  border-radius: 8px;
+}
+
+/* About */
+.about {
+  padding: 2rem;
+  text-align: center;
+  background: #eee;
+}
+
+/* Contact */
+.contact {
+  padding: 2rem;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  gap: 0.8rem;
+}
+input, textarea {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 0.7rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background: #357ABD;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+  margin-top: 2rem;
+}
